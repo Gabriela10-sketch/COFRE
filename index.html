@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cofre Secreto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1> 🩷 Cofre Secreto 🔐</h1>
+
+        <img src="imagens/cofre-fechado.png" id="imagem-cofre"alt="Cofre fechado">
+    <p>Digite um número entre 1 e 50:</p>
+
+    <input type="number" id="senha" min="1" max="50">
+
+    <button id="botao-tentar" onclick="verificarSenha()">Abra!</button>
+
+    <p id="mensagem"></p>
+    <p id="tentativas">Tentativas: 0 / 7</p>
+
+    <button onclick="reiniciarJogo()">Reiniciar</button>
+
+</body>
+</html>
+
+

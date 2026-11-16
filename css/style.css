@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #af4793, #d44db5);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+
+
+h1 {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+
+p {
+    font-size: 18px;
+}
+
+
+input {
+    padding: 12px;
+    border: 2px solid #ff92e7;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    width: 220px;
+}
+
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff87db;
+    color: #751761;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+button:hover {
+    background-color: #fface6;
+    transform: scale(1.05);
+}
+
+
+#mensagem {
+    font-weight: bold;
+    min-height: 22px;
+}
+
+
+#tentativas {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+#imagem-cofre {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: transform 0.5s;
+}
+
+
+.cofre-aberto {
+    transform: scale(1.15);
+}
+
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
